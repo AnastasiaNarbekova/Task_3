@@ -1,7 +1,7 @@
-files_data = {}
 with open('1.txt', encoding='utf-8') as file_1, \
      open('2.txt', encoding='utf-8') as file_2, \
      open('3.txt', encoding='utf-8') as file_3:
+    files_data = {}
     files = [file_1, file_2, file_3]
     for i, file in enumerate(files):
         lines = file.readlines()
